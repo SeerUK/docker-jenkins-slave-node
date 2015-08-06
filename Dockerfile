@@ -20,6 +20,6 @@ RUN set -ex && \
     npm install -g npm@"$NPM_VERSION" && \
     npm cache clear
 
-WORKDIR /opt/jenkins-slave/
+WORKDIR /opt/jenkins-slave-setup
 
-CMD /opt/jenkins-slave/start-slave.sh
+CMD /opt/jenkins-slave-setup/start-slave.sh
