@@ -6,7 +6,7 @@ ENV NPM_VERSION 2.13.3
 
 RUN \
     apt-get update && \
-    apt-get install libfontconfig && \
+    apt-get install -y libfontconfig && \
     apt-get autoremove && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
