@@ -3,6 +3,7 @@ Docker Jenkins Slave: Node
 
 Docker Image packaging for a Jenkins Slave capable of running NodeJS. This image is built on top of [seeruk/jenkins-slave][1], and is available on the [Docker Hub][2].
 
+Note: This image was simply a proof-of-concept, to prove the usefulness of the seeruk/jenkins-slave image. It is currently used in production and is working well, but ongoing development will probably not occur on this image.
 
 Usage
 -----
