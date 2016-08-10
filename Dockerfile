@@ -1,5 +1,5 @@
-FROM seeruk/docker-jenkins-slave:latest
-MAINTAINER Elliot Wright <elliot@elliotwright.co>
+FROM seeruk/jenkins-slave:latest
+MAINTAINER Elliot Wright <hello@elliotdwright.com>
 
 ENV NODE_VERSION 0.12.7
 ENV NPM_VERSION 2.13.3
